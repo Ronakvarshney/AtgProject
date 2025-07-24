@@ -18,7 +18,7 @@ const Posts = () => {
       title: "What if famous brands had regular fonts? Meet RegulaBrands!",
       desc: "I’ve worked in UX for the better part of a decade. From now on, I plan to reinvent design thinking.",
       image:
-        "src/assets/8f0b5f5259515bfc8d2d4ff8928be097376153e9.jpg",
+        "public/8f0b5f5259515bfc8d2d4ff8928be097376153e9.jpg",
       author: "Sarthak Kamra",
       views: "1.4k",
     },
@@ -28,7 +28,7 @@ const Posts = () => {
       title:
         "Tax Benefits for Investment under National Pension Scheme launched by Government",
       desc: "I’ve worked in UX for the better part of a decade. From now on, I plan to reinvent design thinking.",
-      image:"src/assets/wood-SIbopgrg.jpg" ,
+      image:"/wood-SIbopgrg.jpg" ,
      author: "Sarah West",
       views: "1.4k",
     },
@@ -37,7 +37,7 @@ const Posts = () => {
       icon: "📅",
       title: "Finance & Investment Elite Social Mixer @Luijazui",
       desc: "Fri, 12 Oct, 2018 | Ahmedabad, India",
-      image: "src/assets/car-kZ9O3U5Q.jpg",
+      image: "/car-kZ9O3U5Q.jpg",
       author: "Ronal Jones",
       views: "1.4k",
     },
@@ -141,9 +141,7 @@ const Posts = () => {
           ))}
         </div>
 
-        {/* ✅ Right Column - Location + Recommended Groups */}
         <div className="col-md-4">
-          {/* Location Card */}
           <div className="card p-3 shadow-sm mb-3">
             <div className="input-group">
               <span className="input-group-text bg-white border-0 ps-0">
@@ -172,7 +170,6 @@ const Posts = () => {
             </small>
           </div>
 
-          {/* Recommended Groups */}
           <div className="card p-3 shadow-sm">
             <h6 className="fw-semibold mb-3">👍 RECOMMENDED GROUPS</h6>
             {recommendedGroups.map((group, i) => (

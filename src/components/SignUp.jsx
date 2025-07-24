@@ -85,7 +85,7 @@ const SignUpModal = () => {
                   </button>
                   <button className="btn btn-light border d-flex align-items-center justify-content-center gap-2">
                     <img
-                      src="src/assets/download.svg"
+                      src="/download.svg"
                       alt="google"
                       width="18"
                     />
@@ -96,7 +96,7 @@ const SignUpModal = () => {
 
               <div className="col-md-6 text-center mt-3 mt-md-0">
                 <img
-                  src="src/assets/signup-OCG-APNN.svg"
+                  src="/signup-OCG-APNN.svg"
                   alt="illustration"
                   className="img-fluid mb-2"
                 />
